@@ -3,6 +3,8 @@
 #include "Freelancer.h"
 #include "Internal.h"
 
+//Isto é um comentário.
+
 int main() {
     // Create a freelancer
     Freelancer freelancer1(123456789, "João Silva", 160, 25.0, true);
