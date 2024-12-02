@@ -8,7 +8,7 @@ int main(){
 
     cout << "Digite um numero inteiro: ";
     cin >> numero;
-    cout << "O numero introduzidofoi: " << numero << endl;
+    cout << "O numero introduzido foi: " << numero << endl;
 
     return 0;
 }
