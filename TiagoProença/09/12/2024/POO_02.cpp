@@ -14,6 +14,11 @@ class Estudante {
     void mostrar() {
         cout << "O meu nome e' " << nome << " e tenho " << idade << " anos." << endl;
     }
+
+    void duplicar (){
+        idade = idade * 2;
+        cout << "O dobro da sua idade e' igual a " << idade << " anos." << endl;
+    }
 }; // Fim da classe 'nomeClasse', com o terminador ';'
 
 int main() {
@@ -27,6 +32,7 @@ int main() {
 
     // Acesso as funcoes definidas na classe
     novoEstudante.mostrar();
+    novoEstudante.duplicar();
     
     return 0;
 }
